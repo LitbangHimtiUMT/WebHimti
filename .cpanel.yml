@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/himtiumtid/web-himti
+    - /bin/cp -R images $DEPLOYPATH
